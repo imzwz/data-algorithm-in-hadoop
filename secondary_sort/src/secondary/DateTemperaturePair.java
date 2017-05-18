@@ -13,6 +13,9 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class DateTemperaturePair implements Writable, WritableComparable<DateTemperaturePair>{
+	/**在hadoop中，如果需要持久存储定制数据类型，必须实现Writable接口，如果要比较定制数据类型，
+	 * 还需要实现WritableComparable接口
+	 */
     private Text yearMonth = new Text();
     private Text day = new Text();
     private IntWritable temperature = new IntWritable();
