@@ -9,7 +9,21 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+
+pom.xml.tag  
+pom.xml.releaseBackup  
+pom.xml.versionsBackup  
+pom.xml.next  
+release.properties  
+dependency-reduced-pom.xml  
+buildNumber.properties  
+.mvn/timing.properties  
+.idea_modules/ 
+
 .idea/
+*.iws  
+*.iml  
+*.ipr  
 
 # Package Files #
 *.jar
