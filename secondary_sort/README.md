@@ -1,10 +1,10 @@
 ## secondary sort: 二次排序
-二次排序是指在归约阶段对某个键关联的值进行排序。
-mapreduce基本范式：
-map(key1, value1) -> list(key2, value2)
-reduce(key2, list(value2)) -> list(key3, value3)
-其中reducer接收的值list(value2)是无序的。
-二次排序目标就是让reducer接收的值有某种顺序。
+二次排序是指在归约阶段对某个键关联的值进行排序。  
+mapreduce基本范式：  
+map(key1, value1) -> list(key2, value2)  
+reduce(key2, list(value2)) -> list(key3, value3)  
+其中reducer接收的值list(value2)是无序的。  
+二次排序目标就是让reducer接收的值有某种顺序。  
 
 #### 解决方案
  第一种方案是让归约器读取和缓存给定键的所有值，然后对这些值完成一个归约器中排序。这种方法不具伸缩性，容易导致内容溢出。  
