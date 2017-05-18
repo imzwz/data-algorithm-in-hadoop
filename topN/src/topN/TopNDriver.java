@@ -26,8 +26,8 @@ public class TopNDriver extends Configured implements Tool {
         int N = Integer.parseInt(args[0]);
         job.getConfiguration().setInt("N", N);
         job.setJobName("TopNDriver");
-        job.setInputFormatClass(SequenceFileInputFormat.class);
-        job.setOutputFormatClass(SequenceFileOutputFormat.class);
+        //job.setInputFormatClass(SequenceFileInputFormat.class);
+        //job.setOutputFormatClass(SequenceFileOutputFormat.class);
         job.setMapperClass(TopNMapper.class);
         job.setReducerClass(TopNReducer.class);
         job.setNumReduceTasks(1);
