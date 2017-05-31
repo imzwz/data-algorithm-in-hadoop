@@ -10,21 +10,34 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../java/hadoop/common" />
+          <root url="file://$MODULE_DIR$/../../../java/hadoop/mapreduce" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/../../java/hadoop/common" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../../java/hadoop/mapreduce" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../java/hadoop/mapreduce" />
+          <root url="file://$MODULE_DIR$/../../../java/hadoop/tools/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../java/hadoop/tools/lib" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../../java/hadoop/tools/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../../java/hadoop/tools/lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../java/hadoop/common" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/../../java/hadoop/mapreduce" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../../java/hadoop/common" recursive="false" />
       </library>
     </orderEntry>
   </component>
