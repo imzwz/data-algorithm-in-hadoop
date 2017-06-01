@@ -40,5 +40,18 @@
         <jarDirectory url="file://$MODULE_DIR$/../../../java/hadoop/common" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../java/spark" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../java/spark" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../../java/spark" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../../java/spark" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>
